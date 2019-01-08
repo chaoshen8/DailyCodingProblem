@@ -14,8 +14,12 @@ public class Problem2
     public static void main(String[] arg)
     {
 //        int integers[] = { 1, 2, 3, 4, 5 };
-        int integers[] = { 7, 13, 17, 26, 49, 3 };
+//        int integers[] = { 3, 2, 1 };
+//        int integers[] = { 7, 13, 17, 26, 49, 3 };
+        int integers[] = { 1, -2, -3, -4};
+//        int integers[] = { 0, 3, 2, 1};
 
+        // Solution with Division doesn't work with 0 in array
         System.out.println("Solution with Division:    " + Arrays.toString(productOfOtherNums(integers)));
         System.out.println("Solution without Division: " + Arrays.toString(withoutDivision(integers)));
 
